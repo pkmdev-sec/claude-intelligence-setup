@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "outputStyle": "Explanatory",
+  "env": {
+    "ACONTEXT_API_KEY": "YOUR_ACONTEXT_API_KEY",
+    "ACONTEXT_BASE_URL": "https://api.acontext.app/api/v1",
+    "SUPABASE_URL": "YOUR_SUPABASE_URL",
+    "SUPABASE_ANON_KEY": "YOUR_SUPABASE_ANON_KEY"
+  }
+}

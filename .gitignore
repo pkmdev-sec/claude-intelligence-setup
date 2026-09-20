@@ -1,0 +1,50 @@
+# Secrets
+settings.local.json
+__pycache__/
+*.pyc
+*.local.json
+.env
+.env.*
+
+# Runtime data
+hooks/.acontext_state/
+*.db
+*.log
+*.lock
+
+# Session data (large, ephemeral)
+projects/
+debug/
+transcripts/
+file-history/
+paste-cache/
+shell-snapshots/
+todos/
+cache/
+telemetry/
+statsig/
+session-env/
+tasks/
+teams/
+
+# Application state
+.claude.json
+.claude.json.bak*
+history.jsonl
+stats-cache.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Plugin cache (large, regenerated)
+plugins/cache/
+
+# Backup files
+backups/
+
+# Claude layer (separate project)
+claudelayer/
+
+# Node modules
+node_modules/

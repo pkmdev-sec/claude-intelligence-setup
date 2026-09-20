@@ -1,0 +1,22 @@
+{
+  "name": "streamdown-doc-gate",
+  "version": "1.0.0",
+  "description": "Global Markdown normalization gate for Claude docs workflow using remend (Streamdown ecosystem).",
+  "scripts": {
+    "normalize": "node ./normalize-docs.mjs",
+    "check": "node ./normalize-docs.mjs --check"
+  },
+  "keywords": [
+    "streamdown",
+    "remend",
+    "markdown",
+    "claude-code"
+  ],
+  "author": "pkmdev-sec",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "remend": "^1.2.0"
+  },
+  "private": true
+}

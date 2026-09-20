@@ -1,0 +1,12 @@
+# Local settings with secrets
+settings.local.json
+*.local.json
+
+# State and runtime data
+hooks/.acontext_state/
+*.db
+*.log
+
+# Environment files
+.env
+.env.*
